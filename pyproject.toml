@@ -1,0 +1,14 @@
+[project]
+name = "kmd-nova-client"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Martin Androvich", email = "martinandrovich@gmail.com" }
+]
+requires-python = "~=3.13.0"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
