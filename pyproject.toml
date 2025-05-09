@@ -1,13 +1,17 @@
 [project]
 name = "kmd-nova-client"
 version = "0.1.0"
-description = "Add your description here"
+description = "Unofficial KMD Nova client."
 readme = "README.md"
 authors = [
     { name = "Martin Androvich", email = "martinandrovich@gmail.com" }
 ]
 requires-python = "~=3.13.0"
-dependencies = []
+dependencies = [
+    "pandas>=2.2.3",
+    "requests>=2.32.3",
+    "tqdm>=4.67.1",
+]
 
 [build-system]
 requires = ["hatchling"]
