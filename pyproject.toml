@@ -8,9 +8,11 @@ authors = [
 ]
 requires-python = "~=3.13.0"
 dependencies = [
+    "bs4>=0.0.2",
     "pandas>=2.2.3",
     "requests>=2.32.3",
     "tqdm>=4.67.1",
+    "playwright>=1.52.0",
 ]
 
 [build-system]
